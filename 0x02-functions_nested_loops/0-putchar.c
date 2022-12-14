@@ -3,8 +3,7 @@
 /**
  * main - print _putchar
  * writen by pj
- * Return
- * : 0
+ * Return: 0
  */
 
 int main(void)
