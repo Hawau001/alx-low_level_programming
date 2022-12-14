@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* print_alphabet_x10 - print 10 times, alphabet in lowercase
+* print_alphabet_10x - print 10 times, alphabet in lowercase
 */
-void print_alphabet_x10(void)
+void print_alphabet_iix10(void)
 
 {
 	int count = 0;
