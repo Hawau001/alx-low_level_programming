@@ -6,7 +6,7 @@
  * @c: the character to print
  * Return: On success 1
  */
-int __putchar(char c)
+int _putchar(char c)
 
 {
 
