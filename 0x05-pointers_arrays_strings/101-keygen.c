@@ -17,13 +17,13 @@ int main(void)
 
 	srand(time(0));
 
+
 	while (sum <= 2646)
 	{
 		randchar = rand() % 128;
 		write(1, &randchar, 1);
 		sum += randchar;
 	}
-
 
 	randchar = 2772 - sum;
 	write(1, &randchar, 1);
