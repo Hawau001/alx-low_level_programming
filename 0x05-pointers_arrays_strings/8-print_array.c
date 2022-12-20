@@ -1,20 +1,24 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_array - prints n element of an array of integers
- * Owned by pj
- * @a: int to check
- * @n: int to check
- * Return: 0 is success
+ * print_array - prints n times the elements of an array
+ * @a: the pointer to the elements
+ * @n: times to print elements
  */
 void print_array(int *a, int n)
 {
-	int x;
-	
-	for (x = 0; x < n; x++)
-		if (x != n - 1)
-		printf("%d, ", a[x]);
-		else
-			printf("%d", a[x]);
-printf("\n");
+	int i;
+
+
+	for (i = 0 ; i < n ; i++)
+	{
+		printf("%d", a[i]);
+
+
+		if (i < n - 1)
+	{
+		printf(", ");
+	}
+	}
+	putchar('\n');
 }
