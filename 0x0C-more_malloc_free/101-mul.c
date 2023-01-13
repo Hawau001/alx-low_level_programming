@@ -43,3 +43,4 @@ int main(int argc, char *argv[])
 	res = mul(a, b);
 	printf("%d", res);
 }
+footer
