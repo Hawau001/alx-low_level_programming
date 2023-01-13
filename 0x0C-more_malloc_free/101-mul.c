@@ -1,20 +1,3 @@
-
-Zillight
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x0C-more_malloc_free/101-mul.c
-@Zillight
-Zillight We must accept finite disappointment, but never lose infinite hope
- 1 contributor
-49 lines (41 sloc)  713 Bytes
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
