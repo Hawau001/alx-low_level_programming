@@ -16,6 +16,7 @@ int _strlen(char *str)
 
 	return (i);
 }
+
 /**
  * main - multiplies two positive numbers
  * @argc: number of arguments
@@ -25,9 +26,8 @@ int _strlen(char *str)
  */
 int main(int argc, char *argv[])
 {
-	unsigned long int a, b,
+	unsigned long int a, b, res;
 
-		      res;
 	int len_a, len_b;
 
 	len_a = _strlen(argv[1]);
@@ -37,6 +37,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
+
 		printf("Error\n");
 		return (98);
 	}
